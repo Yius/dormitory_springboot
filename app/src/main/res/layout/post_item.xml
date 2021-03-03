@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="6dp"
+    app:cardBackgroundColor="@color/xui_config_color_white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="10dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardPreventCornerOverlap="true"
+    app:contentPaddingTop="5dp"
+    app:contentPaddingBottom="10dp"
+    app:contentPaddingLeft="16dp"
+    app:contentPaddingRight="16dp"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.xuexiang.xui.widget.imageview.RadiusImageView
+                    android:id="@+id/iv_poster_avatar"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/portrait_s"
+                    app:riv_is_circle="true"
+                    android:scaleType="centerCrop"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+                    <TextView
+                        android:id="@+id/tv_poster_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="張三"
+                        android:textSize="16sp"
+                        android:textColor="@color/xui_config_color_pure_black" />
+                    <TextView
+                        android:id="@+id/tv_latest_reply_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="回復于2分鐘前"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:gravity="end"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_posting_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2020-03-15" />
+                <TextView
+                    android:id="@+id/tv_posting_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12:11:11"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_post_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="start|center_vertical"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:text="深度解析RocketMQ消息发送的高可用设计"
+                android:textSize="18sp"
+                android:textColor="@color/xui_config_color_pure_black" />
+
+            <TextView
+                android:id="@+id/tv_post_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:ellipsize="end"
+                android:gravity="start|center_vertical"
+                android:maxLines="3"
+                android:singleLine="false"
+                android:text="从rocketmq topic的创建机制可知，一个topic对应有多个消息队列，那么我们在发送消息时，是如何选择消息队列进行发送的？"
+                android:textSize="14sp"
+                android:textColor="?attr/xui_config_color_content_text" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

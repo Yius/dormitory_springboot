@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--这是用于水电查询中的dialog-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_water"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="水费"
+        />
+    <EditText
+        android:id="@+id/et_electricity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="电费"
+        />
+
+</LinearLayout>

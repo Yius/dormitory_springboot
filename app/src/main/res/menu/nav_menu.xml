@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@mipmap/persona_info"
+            android:title="个人信息"/>
+        <item
+            android:id="@+id/nav_sign_in"
+            android:icon="@mipmap/sign_in"
+            android:title="签到"/>
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@mipmap/aboutus"
+            android:title="关于我们"/>
+    </group>
+</menu>

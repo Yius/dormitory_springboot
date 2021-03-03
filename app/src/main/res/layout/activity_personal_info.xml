@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smartrefresh.layout.SmartRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/smartRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBar_personal_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00baba"
+            android:fitsSystemWindows="true">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:fitsSystemWindows="true"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                app:contentScrim="#00baba"
+                app:statusBarScrim="@color/colorTransparent"
+                >
+                <include
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_collapseMode="parallax"
+                    android:layout_marginTop="60dp"
+                    app:layout_collapseParallaxMultiplier="0"
+                    layout="@layout/include_personal_info"/>
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar_personal_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin"
+                    app:titleTextAppearance="@color/design_default_color_background"
+                    app:titleTextColor="@color/design_default_color_background"/>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+            <com.xuexiang.xui.widget.button.roundbutton.RoundButton
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="start|center_vertical"
+                android:paddingStart="35dp"
+                android:text="我的帖子"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:rb_backgroundColor="@color/design_default_color_background"
+                app:rb_borderWidth="0dp"
+                app:rb_radiusTopLeft="20dp"
+                app:rb_radiusTopRight="20dp" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_personal_posts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:overScrollMode="never"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/show_all"
+        android:title="显示所有"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/show_handled"
+        android:title="仅显示已处理的"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/show_unhandled"
+        android:title="仅显示未处理的"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/export_excel"
+        android:title="导出维修申请Excel表"
+        app:showAsAction="never" />
+</menu>

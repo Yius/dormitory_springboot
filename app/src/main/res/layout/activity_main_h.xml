@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.xuexiang.xui.widget.actionbar.TitleBar
+        android:id="@+id/titlebar_h"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tb_immersive="true"
+        app:tb_actionPadding="20dp"
+        app:tb_centerGravity="center"
+        app:tb_titleText="首页"
+        app:tb_useThemeColor="false"
+        android:background="#007FFF"/>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager_h"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_nav"
+        android:layout_below="@id/titlebar_h"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        app:itemIconTint="@drawable/bottom_nav_selector"
+        app:itemTextColor="@drawable/bottom_nav_selector"
+        app:menu="@menu/bottom_nav_menu_h"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_above="@id/bottom_nav"
+        android:background="@drawable/bottom_shadow"/>
+</RelativeLayout>

@@ -1,0 +1,1881 @@
+nohup: ignoring input
+client connect server: ip = 125.94.156.119, port = 26465
+client connect server: ip = 103.27.25.247, port = 24513
+PHP Warning:  socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 125.94.156.119, port = 26845
+client close
+client connect server: ip = 125.94.156.119, port = 26867
+client close
+client connect server: ip = 125.94.156.119, port = 26884
+client close
+client connect server: ip = 125.94.156.119, port = 26910
+client close
+client connect server: ip = 125.94.156.119, port = 26926
+client close
+client close
+client connect server: ip = 112.97.247.62, port = 44848
+client close
+client connect server: ip = 112.97.247.62, port = 44851
+client close
+client connect server: ip = 112.97.247.62, port = 44852
+client close
+client connect server: ip = 112.97.247.62, port = 44853
+client close
+client connect server: ip = 112.97.247.62, port = 44854
+client close
+client connect server: ip = 112.97.247.62, port = 44855
+client close
+client connect server: ip = 112.97.247.62, port = 44856
+client close
+client connect server: ip = 112.97.247.62, port = 44880
+client close
+client connect server: ip = 112.97.247.62, port = 44887
+client close
+client connect server: ip = 223.73.88.82, port = 7878
+client close
+client connect server: ip = 223.73.88.82, port = 8018
+client close
+client connect server: ip = 223.73.88.82, port = 7884
+client connect server: ip = 112.97.247.62, port = 46317
+client close
+client connect server: ip = 223.73.88.82, port = 7838
+client close
+client connect server: ip = 112.97.247.62, port = 46330
+client close
+client connect server: ip = 223.73.88.82, port = 8020
+client close
+client connect server: ip = 223.73.88.82, port = 8052
+client close
+client connect server: ip = 223.73.88.82, port = 7986
+client close
+client connect server: ip = 223.73.88.82, port = 7986
+client close
+client close
+client connect server: ip = 112.97.247.62, port = 46354
+client close
+client connect server: ip = 112.97.247.62, port = 46355
+client close
+client connect server: ip = 112.97.247.62, port = 46356
+client close
+client connect server: ip = 112.97.247.62, port = 46357
+client close
+client connect server: ip = 112.97.247.62, port = 47808
+client close
+client connect server: ip = 112.97.247.62, port = 47809
+client close
+client connect server: ip = 112.97.247.62, port = 47810
+client close
+client connect server: ip = 112.97.247.62, port = 47811
+client connect server: ip = 112.97.247.62, port = 47830
+client close
+client connect server: ip = 112.97.247.62, port = 47834
+client close
+client connect server: ip = 112.97.247.62, port = 47835
+client close
+client connect server: ip = 112.97.247.62, port = 47836
+client close
+client connect server: ip = 112.97.247.62, port = 47839
+client close
+client connect server: ip = 223.73.88.82, port = 7912
+client close
+client connect server: ip = 223.73.88.82, port = 7834
+client close
+client connect server: ip = 223.73.88.82, port = 8022
+client close
+client connect server: ip = 223.73.88.82, port = 7990
+client close
+client connect server: ip = 223.73.88.82, port = 7894
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 125.94.156.119, port = 28963
+client close
+client connect server: ip = 125.94.156.119, port = 29002
+client close
+client connect server: ip = 125.94.156.119, port = 29112
+client close
+client connect server: ip = 125.94.156.119, port = 29125
+client close
+client connect server: ip = 125.94.156.119, port = 29149
+client close
+client connect server: ip = 125.94.156.119, port = 29159
+client close
+client connect server: ip = 125.94.156.119, port = 29170
+client close
+client connect server: ip = 125.94.156.119, port = 29180
+client close
+client connect server: ip = 125.94.156.119, port = 29188
+client close
+client connect server: ip = 125.94.156.119, port = 29195
+client close
+client connect server: ip = 125.94.156.119, port = 29208
+client close
+client connect server: ip = 125.94.156.119, port = 29225
+client close
+client connect server: ip = 112.97.247.62, port = 50782
+client close
+client connect server: ip = 112.97.247.62, port = 50783
+client close
+client connect server: ip = 112.97.247.62, port = 50784
+client close
+client connect server: ip = 112.97.247.62, port = 50785
+client close
+client connect server: ip = 112.97.247.62, port = 50786
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 125.94.156.119, port = 28373
+client close
+client connect server: ip = 112.97.247.62, port = 52329
+client close
+client connect server: ip = 125.94.156.119, port = 28908
+client close
+client connect server: ip = 125.94.156.119, port = 28950
+client close
+client connect server: ip = 125.94.156.119, port = 29369
+client close
+client connect server: ip = 125.94.156.119, port = 26510
+client close
+client connect server: ip = 125.94.156.119, port = 26565
+client close
+client connect server: ip = 125.94.156.119, port = 28178
+client close
+client connect server: ip = 125.94.156.119, port = 26436
+client close
+client connect server: ip = 125.94.156.119, port = 28109
+client close
+client connect server: ip = 125.94.156.119, port = 28136
+client connect server: ip = 125.94.156.119, port = 25661
+client close
+client connect server: ip = 125.94.156.119, port = 25837
+client close
+client connect server: ip = 125.94.156.119, port = 26253
+client close
+client connect server: ip = 125.94.156.119, port = 26344
+client close
+client connect server: ip = 125.94.156.119, port = 26509
+client close
+client connect server: ip = 125.94.156.119, port = 26635
+client close
+client connect server: ip = 125.94.156.119, port = 27333
+client connect server: ip = 125.94.156.119, port = 27538
+client close
+client connect server: ip = 125.94.156.119, port = 27650
+client close
+client connect server: ip = 125.94.156.119, port = 27680
+client close
+client connect server: ip = 125.94.156.119, port = 28394
+client close
+client connect server: ip = 125.94.156.119, port = 28403
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 112.97.209.194, port = 30584
+client close
+client connect server: ip = 125.94.156.119, port = 28608
+client close
+client connect server: ip = 125.94.156.119, port = 28613
+client close
+client connect server: ip = 125.94.156.119, port = 28616
+client close
+client connect server: ip = 125.94.156.119, port = 28620
+client close
+client connect server: ip = 125.94.156.119, port = 28625
+client close
+client connect server: ip = 125.94.159.95, port = 10043
+client close
+client connect server: ip = 125.94.159.95, port = 10082
+client close
+client connect server: ip = 125.94.159.95, port = 10087
+client close
+client connect server: ip = 125.94.159.95, port = 10089
+client close
+client connect server: ip = 125.94.159.95, port = 10093
+client close
+client connect server: ip = 125.94.159.95, port = 10096
+client close
+client connect server: ip = 125.94.159.95, port = 10101
+client close
+client connect server: ip = 125.94.159.95, port = 10104
+client close
+client connect server: ip = 125.94.159.95, port = 10109
+client close
+client connect server: ip = 125.94.159.95, port = 10126
+client close
+client connect server: ip = 125.94.159.95, port = 10127
+client close
+client connect server: ip = 125.94.159.95, port = 10130
+client close
+client connect server: ip = 125.94.159.95, port = 10132
+client close
+client connect server: ip = 125.94.159.95, port = 10134
+client close
+client connect server: ip = 125.94.159.95, port = 10136
+client close
+client connect server: ip = 125.94.159.95, port = 10138
+client close
+client connect server: ip = 125.94.159.95, port = 10175
+client close
+client connect server: ip = 125.94.159.95, port = 10177
+client connect server: ip = 125.94.159.95, port = 10852
+client close
+client connect server: ip = 125.94.159.95, port = 10855
+client close
+client connect server: ip = 125.94.159.95, port = 10856
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 125.94.159.95, port = 11616
+client close
+client connect server: ip = 125.94.159.95, port = 11619
+client close
+client connect server: ip = 125.94.159.95, port = 11622
+client close
+client connect server: ip = 125.94.159.95, port = 11644
+client close
+client connect server: ip = 47.103.99.182, port = 54332
+client close
+client connect server: ip = 47.103.99.182, port = 56434
+client close
+client connect server: ip = 47.103.99.182, port = 57528
+client close
+client connect server: ip = 47.103.99.182, port = 58520
+client close
+client connect server: ip = 47.103.99.182, port = 59626
+client close
+client connect server: ip = 47.103.99.182, port = 60784
+client close
+client connect server: ip = 47.103.99.182, port = 33528
+client close
+client connect server: ip = 47.103.99.182, port = 34416
+client close
+client connect server: ip = 47.103.99.182, port = 35470
+client close
+client connect server: ip = 47.103.99.182, port = 36734
+client close
+client connect server: ip = 47.103.99.182, port = 37848
+client close
+client connect server: ip = 47.103.99.182, port = 38680
+client close
+client connect server: ip = 47.103.99.182, port = 39738
+client close
+client connect server: ip = 47.103.99.182, port = 40572
+client close
+client connect server: ip = 47.103.99.182, port = 41634
+client close
+client connect server: ip = 47.103.99.182, port = 42266
+client close
+client connect server: ip = 47.103.99.182, port = 43204
+client close
+client connect server: ip = 47.103.99.182, port = 44096
+client close
+client connect server: ip = 47.103.99.182, port = 45200
+client close
+client connect server: ip = 47.103.99.182, port = 46216
+client close
+client connect server: ip = 47.103.99.182, port = 47156
+client close
+client connect server: ip = 47.103.99.182, port = 48068
+client close
+client connect server: ip = 47.103.99.182, port = 49528
+client close
+client connect server: ip = 47.103.99.182, port = 50630
+client close
+client connect server: ip = 47.103.99.182, port = 51698
+client close
+client connect server: ip = 47.103.99.182, port = 53264
+client close
+client connect server: ip = 47.103.99.182, port = 54098
+client close
+client connect server: ip = 47.103.99.182, port = 55648
+client close
+client connect server: ip = 47.103.99.182, port = 56600
+client close
+client connect server: ip = 47.103.99.182, port = 57828
+client close
+client connect server: ip = 47.103.99.182, port = 58472
+client close
+client connect server: ip = 47.103.99.182, port = 59266
+client close
+client connect server: ip = 47.103.99.182, port = 33050
+client close
+client connect server: ip = 47.103.99.182, port = 33812
+client close
+client connect server: ip = 47.103.99.182, port = 34638
+client close
+client connect server: ip = 47.103.99.182, port = 35350
+client close
+client connect server: ip = 47.103.99.182, port = 36046
+client close
+client connect server: ip = 47.103.99.182, port = 37002
+client close
+client connect server: ip = 47.103.99.182, port = 38024
+client close
+client connect server: ip = 47.103.99.182, port = 39140
+client close
+client connect server: ip = 47.103.99.182, port = 39938
+client close
+client connect server: ip = 47.103.99.182, port = 41238
+client close
+client connect server: ip = 47.103.99.182, port = 42472
+client close
+client connect server: ip = 47.103.99.182, port = 43356
+client close
+client connect server: ip = 47.103.99.182, port = 44216
+client close
+client connect server: ip = 47.103.99.182, port = 44988
+client close
+client connect server: ip = 47.103.99.182, port = 45880
+client close
+client connect server: ip = 47.103.99.182, port = 46848
+client close
+client connect server: ip = 47.103.99.182, port = 47626
+client close
+client connect server: ip = 47.103.99.182, port = 48626
+client close
+client connect server: ip = 47.103.99.182, port = 49414
+client close
+client connect server: ip = 47.103.99.182, port = 50208
+client close
+client connect server: ip = 47.103.99.182, port = 51124
+client close
+client connect server: ip = 47.103.99.182, port = 51908
+client close
+client connect server: ip = 47.103.99.182, port = 52596
+client close
+client connect server: ip = 47.103.99.182, port = 53362
+client close
+client connect server: ip = 47.103.99.182, port = 54018
+client close
+client connect server: ip = 47.103.99.182, port = 54946
+client close
+client connect server: ip = 47.103.99.182, port = 55678
+client close
+client connect server: ip = 47.103.99.182, port = 56814
+client close
+client connect server: ip = 47.103.99.182, port = 57750
+client close
+client connect server: ip = 47.103.99.182, port = 58684
+client close
+client connect server: ip = 47.103.99.182, port = 59442
+client close
+client connect server: ip = 47.103.99.182, port = 60272
+client close
+client connect server: ip = 47.103.99.182, port = 32818
+client close
+client connect server: ip = 47.103.99.182, port = 33660
+client close
+client connect server: ip = 47.103.99.182, port = 34336
+client close
+client connect server: ip = 47.103.99.182, port = 35124
+client close
+client connect server: ip = 47.103.99.182, port = 35632
+client close
+client connect server: ip = 47.103.99.182, port = 38196
+client close
+client connect server: ip = 47.103.99.182, port = 39514
+client close
+client connect server: ip = 47.103.99.182, port = 540
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 125.94.159.95, port = 11438
+client close
+client connect server: ip = 125.94.159.95, port = 11448
+client close
+client connect server: ip = 125.94.159.95, port = 11464
+client close
+client connect server: ip = 125.94.159.95, port = 11559
+client close
+client connect server: ip = 125.94.159.95, port = 11572
+client close
+client connect server: ip = 125.94.159.95, port = 11574
+client close
+client connect server: ip = 125.94.159.95, port = 11602
+client close
+client connect server: ip = 125.94.159.95, port = 11610
+client close
+client connect server: ip = 125.94.159.95, port = 11621
+client close
+client connect server: ip = 125.94.159.95, port = 11623
+client close
+client connect server: ip = 125.94.159.95, port = 11637
+PHP Warning:  socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 125.94.159.95, port = 12698
+client close
+client connect server: ip = 125.94.159.95, port = 12878
+client close
+client connect server: ip = 125.94.159.95, port = 12909
+client close
+client connect server: ip = 125.94.159.95, port = 12928
+client close
+client connect server: ip = 125.94.159.95, port = 12931
+client close
+client connect server: ip = 125.94.159.95, port = 13293
+client connect server: ip = 125.94.159.95, port = 11245
+client close
+client connect server: ip = 125.94.159.95, port = 11274
+client close
+client connect server: ip = 125.94.159.95, port = 11946
+client close
+client connect server: ip = 125.94.159.95, port = 11980
+client close
+client connect server: ip = 125.94.159.95, port = 12004
+client close
+client connect server: ip = 125.94.159.95, port = 12053
+client close
+client connect server: ip = 125.94.159.95, port = 12055
+client close
+client connect server: ip = 125.94.159.95, port = 12147
+client close
+client connect server: ip = 125.94.159.95, port = 12156
+client close
+client connect server: ip = 125.94.159.95, port = 12160
+client close
+client connect server: ip = 125.94.159.95, port = 12166
+client close
+client connect server: ip = 125.94.159.95, port = 12302
+client close
+client connect server: ip = 125.94.159.95, port = 12316
+client close
+client connect server: ip = 125.94.159.95, port = 12352
+client close
+client connect server: ip = 125.94.159.95, port = 12380
+client close
+client connect server: ip = 125.94.159.95, port = 12390
+client close
+client connect server: ip = 125.94.159.95, port = 12401
+client close
+client connect server: ip = 125.94.159.95, port = 12418
+client close
+client connect server: ip = 125.94.159.95, port = 12436
+client close
+client connect server: ip = 125.94.159.95, port = 12450
+client close
+client connect server: ip = 125.94.159.95, port = 12462
+client close
+client connect server: ip = 125.94.159.95, port = 12464
+client close
+client connect server: ip = 125.94.159.95, port = 12977
+client close
+client connect server: ip = 125.94.159.95, port = 12985
+client close
+client connect server: ip = 125.94.159.95, port = 12999
+client close
+client connect server: ip = 125.94.159.95, port = 13285
+client close
+client connect server: ip = 125.94.159.95, port = 13286
+client close
+client connect server: ip = 125.94.159.95, port = 9440
+client close
+client connect server: ip = 125.94.159.95, port = 10260
+client connect server: ip = 125.94.159.95, port = 10862
+client connect server: ip = 125.94.159.95, port = 11831
+client close
+client connect server: ip = 125.94.159.95, port = 11837
+client close
+client connect server: ip = 125.94.159.95, port = 11884
+client close
+client connect server: ip = 125.94.159.95, port = 11887
+client close
+client connect server: ip = 125.94.159.95, port = 11897
+client close
+client connect server: ip = 47.93.180.168, port = 33280
+client connect server: ip = 125.94.159.95, port = 11923
+client close
+client connect server: ip = 125.94.159.95, port = 11929
+client close
+client close
+client connect server: ip = 125.94.159.95, port = 12461
+client close
+client connect server: ip = 125.94.159.95, port = 12483
+client close
+client connect server: ip = 125.94.159.95, port = 12862
+client close
+client connect server: ip = 125.94.159.95, port = 13069
+client close
+client connect server: ip = 125.94.159.95, port = 9570
+client close
+client connect server: ip = 125.94.159.95, port = 9691
+client close
+client connect server: ip = 125.94.159.95, port = 9796
+client close
+client connect server: ip = 125.94.159.95, port = 10348
+client close
+client connect server: ip = 125.94.159.95, port = 10357
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 125.94.159.95, port = 12939
+client close
+client connect server: ip = 125.94.159.95, port = 13094
+client close
+client connect server: ip = 125.94.159.95, port = 13202
+client close
+client connect server: ip = 125.94.159.95, port = 9259
+client close
+client connect server: ip = 125.94.159.95, port = 9395
+client close
+client connect server: ip = 125.94.159.95, port = 9775
+client close
+client connect server: ip = 125.94.159.95, port = 9863
+client close
+client connect server: ip = 125.94.159.95, port = 10454
+client close
+client connect server: ip = 125.94.159.95, port = 10456
+client close
+client connect server: ip = 125.94.159.95, port = 10470
+client close
+client connect server: ip = 125.94.159.95, port = 10484
+client close
+client connect server: ip = 125.94.159.95, port = 10494
+client close
+client connect server: ip = 125.94.159.95, port = 10496
+client close
+client connect server: ip = 125.94.159.95, port = 10506
+client close
+client connect server: ip = 125.94.159.95, port = 10512
+client close
+client connect server: ip = 125.94.159.95, port = 10527
+client close
+client connect server: ip = 125.94.159.95, port = 10557
+client close
+client connect server: ip = 125.94.159.95, port = 10559
+client close
+client connect server: ip = 125.94.159.95, port = 10570
+client close
+client connect server: ip = 125.94.159.95, port = 10584
+client close
+client connect server: ip = 125.94.159.95, port = 10722
+client close
+client connect server: ip = 125.94.159.95, port = 10727
+client close
+client connect server: ip = 125.94.159.95, port = 10804
+client close
+client connect server: ip = 125.94.159.95, port = 10807
+client close
+client connect server: ip = 125.94.159.95, port = 10825
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 125.94.159.95, port = 9950
+client close
+client connect server: ip = 125.94.159.95, port = 9956
+client close
+client connect server: ip = 125.94.159.95, port = 9958
+client close
+client connect server: ip = 125.94.159.95, port = 12587
+client close
+client connect server: ip = 125.94.159.95, port = 12770
+client close
+client connect server: ip = 125.94.159.95, port = 10333
+client close
+client connect server: ip = 125.94.159.95, port = 10718
+client close
+client connect server: ip = 125.94.159.95, port = 11055
+client close
+client connect server: ip = 125.94.159.95, port = 11065
+client connect server: ip = 125.94.159.95, port = 10406
+client close
+client connect server: ip = 125.94.159.95, port = 10462
+client close
+client connect server: ip = 125.94.159.95, port = 10477
+client close
+client connect server: ip = 125.94.159.95, port = 11676
+client close
+client connect server: ip = 125.94.159.95, port = 11714
+client close
+client connect server: ip = 125.94.159.95, port = 11727
+client close
+client connect server: ip = 125.94.159.95, port = 12215
+client close
+client connect server: ip = 125.94.159.95, port = 12221
+client close
+client connect server: ip = 125.94.159.95, port = 12237
+client close
+client connect server: ip = 125.94.159.95, port = 12247
+client close
+client connect server: ip = 125.94.159.95, port = 12259
+client close
+client connect server: ip = 125.94.159.95, port = 12267
+client close
+client connect server: ip = 125.94.159.95, port = 13066
+client connect server: ip = 125.94.159.95, port = 13069
+client close
+client close
+client connect server: ip = 125.94.159.95, port = 13285
+client close
+client connect server: ip = 125.94.159.95, port = 9572
+client close
+client connect server: ip = 125.94.159.95, port = 10426
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 125.94.159.95, port = 12856
+client close
+client connect server: ip = 125.94.159.95, port = 12884
+client close
+client connect server: ip = 125.94.159.95, port = 9261
+client connect server: ip = 125.94.159.95, port = 9264
+client close
+client connect server: ip = 125.94.159.95, port = 9271
+client close
+client connect server: ip = 125.94.159.95, port = 10705
+client close
+client connect server: ip = 125.94.159.95, port = 10746
+client close
+client connect server: ip = 125.94.159.95, port = 10774
+client close
+client connect server: ip = 125.94.159.95, port = 11218
+client connect server: ip = 125.94.159.95, port = 12716
+client close
+client connect server: ip = 125.94.159.95, port = 12774
+client close
+client connect server: ip = 125.94.159.95, port = 12800
+client close
+client connect server: ip = 125.94.159.95, port = 12812
+client close
+client connect server: ip = 125.94.159.95, port = 12838
+client close
+client connect server: ip = 125.94.159.95, port = 9500
+client close
+client connect server: ip = 125.94.159.95, port = 9529
+client close
+client connect server: ip = 125.94.159.95, port = 9542
+client close
+client connect server: ip = 125.94.159.95, port = 9550
+client close
+client connect server: ip = 125.94.159.95, port = 9553
+client close
+client connect server: ip = 125.94.159.95, port = 9556
+client close
+client connect server: ip = 125.94.159.95, port = 9657
+client close
+client connect server: ip = 125.94.159.95, port = 9875
+client connect server: ip = 125.94.159.95, port = 12031
+client close
+client connect server: ip = 125.94.159.95, port = 12090
+client close
+client connect server: ip = 125.94.159.95, port = 12093
+client close
+client connect server: ip = 125.94.159.95, port = 12096
+client close
+client connect server: ip = 125.94.159.95, port = 12100
+client close
+client connect server: ip = 125.94.159.95, port = 12103
+client close
+client connect server: ip = 125.94.159.95, port = 12106
+client close
+client connect server: ip = 125.94.159.95, port = 12123
+client close
+client connect server: ip = 125.94.159.95, port = 12136
+client close
+client connect server: ip = 125.94.159.95, port = 12151
+client close
+client connect server: ip = 125.94.159.95, port = 12770
+client close
+client connect server: ip = 125.94.159.95, port = 9341
+client close
+client connect server: ip = 125.94.159.95, port = 9368
+client close
+client connect server: ip = 125.94.159.95, port = 10383
+client close
+client connect server: ip = 125.94.159.95, port = 10427
+client close
+client connect server: ip = 125.94.159.95, port = 10431
+client close
+client connect server: ip = 125.94.159.95, port = 10445
+client close
+client connect server: ip = 125.94.159.95, port = 10488
+client close
+client connect server: ip = 125.94.159.95, port = 10506
+client close
+client connect server: ip = 125.94.159.95, port = 10522
+client close
+client connect server: ip = 125.94.159.95, port = 10531
+client close
+client connect server: ip = 125.94.159.95, port = 10536
+client close
+client connect server: ip = 125.94.159.95, port = 10564
+client close
+client connect server: ip = 125.94.159.95, port = 10583
+client close
+client connect server: ip = 125.94.159.95, port = 10608
+client connect server: ip = 112.97.209.194, port = 45463
+client close
+client connect server: ip = 112.97.209.194, port = 45465
+client connect server: ip = 125.94.159.95, port = 11454
+client close
+client connect server: ip = 125.94.159.95, port = 11571
+client close
+client connect server: ip = 125.94.159.95, port = 11585
+client connect server: ip = 125.94.159.95, port = 10210
+client close
+client connect server: ip = 125.94.159.95, port = 10790
+client close
+client connect server: ip = 125.94.159.95, port = 11224
+client close
+client connect server: ip = 125.94.159.95, port = 11921
+client close
+client connect server: ip = 125.94.159.95, port = 12245
+client close
+client connect server: ip = 125.94.159.95, port = 12745
+client close
+client connect server: ip = 125.94.159.95, port = 13173
+client close
+client connect server: ip = 125.94.159.95, port = 13218
+client close
+client connect server: ip = 125.94.159.95, port = 9392
+client close
+client connect server: ip = 125.94.159.95, port = 9618
+client close
+client connect server: ip = 125.94.159.95, port = 9869
+client close
+client connect server: ip = 125.94.159.95, port = 9965
+client close
+client connect server: ip = 125.94.159.95, port = 10457
+client close
+client connect server: ip = 125.94.159.95, port = 10814
+client connect server: ip = 125.94.159.95, port = 11717
+client close
+client connect server: ip = 125.94.159.95, port = 11762
+client close
+client connect server: ip = 125.94.159.95, port = 9346
+client close
+client connect server: ip = 125.94.159.95, port = 9388
+client close
+client connect server: ip = 125.94.159.95, port = 9392
+client close
+client connect server: ip = 125.94.159.95, port = 9410
+client close
+client connect server: ip = 125.94.159.95, port = 9424
+client close
+client connect server: ip = 125.94.159.95, port = 9437
+client close
+client connect server: ip = 125.94.159.95, port = 9444
+client close
+client connect server: ip = 125.94.159.95, port = 9459
+client close
+client connect server: ip = 125.94.159.95, port = 9464
+client close
+client connect server: ip = 125.94.159.95, port = 9479
+client close
+client connect server: ip = 125.94.159.95, port = 9835
+client close
+client connect server: ip = 125.94.159.95, port = 9879
+client close
+client connect server: ip = 125.94.159.95, port = 9892
+client close
+client connect server: ip = 125.94.159.95, port = 9906
+PHP Warning:  socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 125.94.159.95, port = 9708
+client close
+client connect server: ip = 125.94.159.95, port = 9723
+client close
+client connect server: ip = 125.94.159.95, port = 9729
+client close
+client connect server: ip = 112.97.209.194, port = 45496
+client close
+client connect server: ip = 125.94.159.95, port = 11541
+client close
+client connect server: ip = 125.94.159.95, port = 11945
+client close
+client connect server: ip = 125.94.159.95, port = 11952
+client close
+client connect server: ip = 125.94.159.95, port = 11960
+client close
+client connect server: ip = 125.94.159.95, port = 12063
+client close
+client connect server: ip = 112.97.209.194, port = 45500
+client close
+client connect server: ip = 112.97.209.194, port = 45501
+client connect server: ip = 125.94.159.95, port = 12294
+client close
+client connect server: ip = 125.94.159.95, port = 12389
+client close
+client connect server: ip = 125.94.159.95, port = 12415
+client close
+client connect server: ip = 125.94.159.95, port = 12425
+client close
+client connect server: ip = 125.94.159.95, port = 12428
+client close
+client connect server: ip = 125.94.159.95, port = 12434
+client close
+client connect server: ip = 125.94.159.95, port = 12438
+client close
+client connect server: ip = 125.94.159.95, port = 12443
+client close
+client connect server: ip = 125.94.159.95, port = 12920
+client close
+client connect server: ip = 125.94.159.95, port = 12970
+client close
+client close
+client connect server: ip = 112.97.209.194, port = 45505
+client close
+client connect server: ip = 112.97.209.194, port = 45506
+client close
+client connect server: ip = 101.133.149.35, port = 55306
+client close
+client connect server: ip = 101.133.149.35, port = 57946
+client close
+client connect server: ip = 101.133.149.35, port = 58816
+client close
+client connect server: ip = 101.133.149.35, port = 59812
+client close
+client connect server: ip = 101.133.149.35, port = 60940
+client close
+client connect server: ip = 101.133.149.35, port = 33662
+client close
+client connect server: ip = 101.133.149.35, port = 34568
+client close
+client connect server: ip = 101.133.149.35, port = 35746
+client close
+client connect server: ip = 101.133.149.35, port = 36730
+client close
+client connect server: ip = 101.133.149.35, port = 38530
+client close
+client connect server: ip = 101.133.149.35, port = 40204
+client close
+client connect server: ip = 101.133.149.35, port = 41382
+client close
+client connect server: ip = 101.133.149.35, port = 42718
+client close
+client connect server: ip = 101.133.149.35, port = 44030
+client close
+client connect server: ip = 101.133.149.35, port = 45462
+client close
+client connect server: ip = 101.133.149.35, port = 46366
+client close
+client connect server: ip = 101.133.149.35, port = 47194
+client close
+client connect server: ip = 101.133.149.35, port = 48168
+client close
+client connect server: ip = 101.133.149.35, port = 49208
+client close
+client connect server: ip = 101.133.149.35, port = 50252
+client close
+client connect server: ip = 101.133.149.35, port = 51346
+client close
+client connect server: ip = 101.133.149.35, port = 52062
+client close
+client connect server: ip = 101.133.149.35, port = 53340
+client close
+client connect server: ip = 101.133.149.35, port = 54130
+client close
+client connect server: ip = 101.133.149.35, port = 55028
+client close
+client connect server: ip = 101.133.149.35, port = 56048
+client close
+client connect server: ip = 101.133.149.35, port = 56924
+client close
+client connect server: ip = 101.133.149.35, port = 58110
+client close
+client connect server: ip = 101.133.149.35, port = 59142
+client close
+client connect server: ip = 101.133.149.35, port = 60106
+client close
+client connect server: ip = 101.133.149.35, port = 60956
+client close
+client connect server: ip = 101.133.149.35, port = 33800
+client close
+client connect server: ip = 101.133.149.35, port = 36242
+client close
+client connect server: ip = 101.133.149.35, port = 37330
+client close
+client connect server: ip = 101.133.149.35, port = 38586
+client close
+client connect server: ip = 101.133.149.35, port = 39422
+client close
+client connect server: ip = 101.133.149.35, port = 40390
+client close
+client connect server: ip = 101.133.149.35, port = 41564
+client close
+client connect server: ip = 101.133.149.35, port = 42550
+client close
+client connect server: ip = 101.133.149.35, port = 43394
+client close
+client connect server: ip = 101.133.149.35, port = 44626
+client close
+client connect server: ip = 101.133.149.35, port = 45236
+client close
+client connect server: ip = 101.133.149.35, port = 46160
+client close
+client connect server: ip = 101.133.149.35, port = 46744
+client close
+client connect server: ip = 101.133.149.35, port = 47708
+client close
+client connect server: ip = 101.133.149.35, port = 48572
+client close
+client connect server: ip = 101.133.149.35, port = 49730
+client close
+client connect server: ip = 101.133.149.35, port = 50720
+client close
+client connect server: ip = 101.133.149.35, port = 51774
+client close
+client connect server: ip = 101.133.149.35, port = 52804
+client close
+client connect server: ip = 101.133.149.35, port = 53762
+client close
+client connect server: ip = 101.133.149.35, port = 54800
+client close
+client connect server: ip = 101.133.149.35, port = 55636
+client close
+client connect server: ip = 101.133.149.35, port = 56314
+client close
+client connect server: ip = 101.133.149.35, port = 57184
+client close
+client connect server: ip = 101.133.149.35, port = 57962
+client close
+client connect server: ip = 101.133.149.35, port = 58738
+client close
+client connect server: ip = 101.133.149.35, port = 59494
+client close
+client connect server: ip = 101.133.149.35, port = 60372
+client close
+client connect server: ip = 101.133.149.35, port = 32960
+client close
+client connect server: ip = 101.133.149.35, port = 33866
+client close
+client connect server: ip = 101.133.149.35, port = 34682
+client close
+client connect server: ip = 101.133.149.35, port = 35350
+client close
+client connect server: ip = 101.133.149.35, port = 36112
+client close
+client connect server: ip = 101.133.149.35, port = 37172
+client close
+client connect server: ip = 101.133.149.35, port = 38256
+client close
+client connect server: ip = 101.133.149.35, port = 39182
+client close
+client connect server: ip = 101.133.149.35, port = 40004
+client close
+client connect server: ip = 101.133.149.35, port = 41136
+client close
+client connect server: ip = 101.133.149.35, port = 42172
+client close
+client connect server: ip = 101.133.149.35, port = 44250
+client close
+client connect server: ip = 101.133.149.35, port = 979
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 112.97.209.194, port = 46975
+client close
+client connect server: ip = 112.97.209.194, port = 46976
+client close
+client connect server: ip = 112.97.209.194, port = 46977
+client close
+client connect server: ip = 112.97.209.194, port = 46978
+client close
+client connect server: ip = 112.97.209.194, port = 46979
+client close
+client connect server: ip = 112.97.209.194, port = 46980
+client close
+client connect server: ip = 112.97.209.194, port = 46981
+client close
+client connect server: ip = 125.94.159.95, port = 10262
+client close
+client connect server: ip = 125.94.159.95, port = 10424
+client close
+client connect server: ip = 125.94.159.95, port = 10735
+client close
+client connect server: ip = 112.97.209.194, port = 46982
+client close
+client connect server: ip = 112.97.209.194, port = 46983
+client close
+client connect server: ip = 125.94.159.95, port = 11529
+client close
+client connect server: ip = 125.94.159.95, port = 11532
+client close
+client connect server: ip = 112.97.209.194, port = 46984
+client close
+client connect server: ip = 112.97.209.194, port = 46985
+client close
+client connect server: ip = 123.232.44.122, port = 51715
+PHP Warning:  socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 123.232.44.122, port = 63134
+PHP Warning:  socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 125.94.159.95, port = 12688
+client close
+client connect server: ip = 125.94.159.95, port = 10892
+client close
+client connect server: ip = 125.94.159.95, port = 10927
+client close
+client connect server: ip = 125.94.159.95, port = 11302
+client close
+client connect server: ip = 125.94.159.95, port = 12805
+client close
+client connect server: ip = 185.202.2.149, port = 64161
+PHP Warning:  socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 123.232.44.122, port = 50109
+PHP Warning:  socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 113.128.221.99, port = 50860
+PHP Warning:  socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 116.26.130.51, port = 17660
+client close
+client connect server: ip = 116.26.130.51, port = 17760
+client close
+client connect server: ip = 116.26.130.51, port = 20546
+client close
+client connect server: ip = 116.26.130.51, port = 20566
+client close
+client connect server: ip = 116.26.130.51, port = 20595
+client close
+client connect server: ip = 116.26.130.51, port = 20612
+client close
+client connect server: ip = 116.26.130.51, port = 20636
+client close
+client connect server: ip = 116.26.130.51, port = 20644
+client close
+client connect server: ip = 116.26.130.51, port = 20651
+client close
+client connect server: ip = 112.97.209.194, port = 57382
+client close
+client connect server: ip = 112.97.209.194, port = 57383
+client close
+client connect server: ip = 112.97.209.194, port = 57384
+client close
+client connect server: ip = 113.100.244.9, port = 18604
+client close
+client connect server: ip = 116.26.130.51, port = 19170
+client close
+client connect server: ip = 112.97.209.194, port = 58844
+client close
+client connect server: ip = 116.26.130.51, port = 18333
+client close
+client connect server: ip = 116.26.130.51, port = 18348
+client close
+client connect server: ip = 116.26.130.51, port = 19635
+client close
+client connect server: ip = 116.26.130.51, port = 19975
+client close
+client connect server: ip = 116.26.130.51, port = 19984
+client close
+client connect server: ip = 116.26.130.51, port = 20789
+client close
+client connect server: ip = 116.26.130.51, port = 18037
+client close
+client connect server: ip = 112.97.209.194, port = 58864
+client close
+client connect server: ip = 116.26.130.51, port = 21149
+client close
+client connect server: ip = 112.97.209.194, port = 58871
+client close
+client connect server: ip = 112.97.209.194, port = 58875
+client close
+client connect server: ip = 116.26.130.51, port = 20791
+client close
+client connect server: ip = 116.26.130.51, port = 20800
+client close
+client connect server: ip = 116.26.130.51, port = 21006
+client close
+client connect server: ip = 116.26.130.51, port = 21019
+client close
+client connect server: ip = 116.26.130.51, port = 21045
+client close
+client connect server: ip = 112.97.209.194, port = 58879
+client close
+client connect server: ip = 14.25.8.54, port = 55464
+client close
+client connect server: ip = 14.25.8.54, port = 55467
+client close
+client connect server: ip = 112.97.209.194, port = 58880
+client close
+client connect server: ip = 116.26.130.51, port = 18861
+client connect server: ip = 112.97.209.194, port = 58883
+client close
+client close
+client connect server: ip = 112.97.209.194, port = 58885
+client connect server: ip = 116.26.130.51, port = 19674
+client close
+client close
+client connect server: ip = 112.97.209.194, port = 58886
+client close
+client connect server: ip = 112.97.209.194, port = 58888
+client close
+client connect server: ip = 112.97.209.194, port = 58889
+client close
+client connect server: ip = 112.97.209.194, port = 58890
+client close
+client connect server: ip = 112.97.209.194, port = 58891
+client close
+client connect server: ip = 112.97.209.194, port = 58894
+client close
+client connect server: ip = 116.26.130.51, port = 19468
+client close
+client connect server: ip = 116.26.130.51, port = 20513
+client close
+client connect server: ip = 116.26.130.51, port = 21277
+client close
+client connect server: ip = 116.26.130.51, port = 21286
+client close
+client connect server: ip = 116.26.130.51, port = 21301
+client close
+client connect server: ip = 116.26.130.51, port = 17544
+client close
+client connect server: ip = 116.26.130.51, port = 19601
+client close
+client connect server: ip = 116.26.130.51, port = 19657
+client close
+client connect server: ip = 116.26.130.51, port = 19686
+client connect server: ip = 116.26.130.51, port = 19691
+client close
+PHP Warning:  socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 116.26.130.51, port = 19803
+client close
+client connect server: ip = 116.26.130.51, port = 19855
+client close
+client connect server: ip = 116.26.130.51, port = 19884
+client connect server: ip = 116.26.130.51, port = 19887
+client close
+client close
+client connect server: ip = 185.202.2.149, port = 60739
+PHP Warning:  socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 195.54.166.35, port = 1982
+PHP Warning:  socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 192.241.211.150, port = 50642
+client close
+client connect server: ip = 101.133.149.35, port = 37430
+client close
+client connect server: ip = 101.133.149.35, port = 38952
+client close
+client connect server: ip = 101.133.149.35, port = 39702
+client close
+client connect server: ip = 101.133.149.35, port = 40454
+client close
+client connect server: ip = 101.133.149.35, port = 41064
+client close
+client connect server: ip = 101.133.149.35, port = 41796
+client close
+client connect server: ip = 101.133.149.35, port = 42484
+client close
+client connect server: ip = 101.133.149.35, port = 43366
+client close
+client connect server: ip = 101.133.149.35, port = 44392
+client close
+client connect server: ip = 101.133.149.35, port = 45714
+client close
+client connect server: ip = 101.133.149.35, port = 46832
+client close
+client connect server: ip = 101.133.149.35, port = 47610
+client close
+client connect server: ip = 101.133.149.35, port = 48708
+client close
+client connect server: ip = 101.133.149.35, port = 49560
+client close
+client connect server: ip = 101.133.149.35, port = 50318
+client close
+client connect server: ip = 101.133.149.35, port = 51362
+client close
+client connect server: ip = 101.133.149.35, port = 52120
+client close
+client connect server: ip = 101.133.149.35, port = 52808
+client close
+client connect server: ip = 101.133.149.35, port = 53722
+client close
+client connect server: ip = 101.133.149.35, port = 54764
+client close
+client connect server: ip = 101.133.149.35, port = 55682
+client close
+client connect server: ip = 101.133.149.35, port = 56492
+client close
+client connect server: ip = 101.133.149.35, port = 57876
+client close
+client connect server: ip = 101.133.149.35, port = 58548
+client close
+client connect server: ip = 101.133.149.35, port = 59462
+client close
+client connect server: ip = 101.133.149.35, port = 60142
+client close
+client connect server: ip = 101.133.149.35, port = 60930
+client close
+client connect server: ip = 101.133.149.35, port = 33904
+client close
+client connect server: ip = 101.133.149.35, port = 34754
+client close
+client connect server: ip = 101.133.149.35, port = 35530
+client close
+client connect server: ip = 101.133.149.35, port = 36592
+client close
+client connect server: ip = 101.133.149.35, port = 37136
+client close
+client connect server: ip = 101.133.149.35, port = 38756
+client close
+client connect server: ip = 101.133.149.35, port = 39292
+client close
+client connect server: ip = 101.133.149.35, port = 40374
+client close
+client connect server: ip = 101.133.149.35, port = 40920
+client close
+client connect server: ip = 101.133.149.35, port = 41818
+client close
+client connect server: ip = 101.133.149.35, port = 42478
+client close
+client connect server: ip = 101.133.149.35, port = 43228
+client close
+client connect server: ip = 101.133.149.35, port = 44054
+client close
+client connect server: ip = 101.133.149.35, port = 44890
+client close
+client connect server: ip = 101.133.149.35, port = 45906
+client close
+client connect server: ip = 101.133.149.35, port = 46744
+client close
+client connect server: ip = 101.133.149.35, port = 47562
+client close
+client connect server: ip = 101.133.149.35, port = 48306
+client close
+client connect server: ip = 101.133.149.35, port = 49050
+client close
+client connect server: ip = 101.133.149.35, port = 49580
+client close
+client connect server: ip = 101.133.149.35, port = 50604
+client close
+client connect server: ip = 101.133.149.35, port = 51242
+client close
+client connect server: ip = 101.133.149.35, port = 51812
+client close
+client connect server: ip = 101.133.149.35, port = 52504
+client close
+client connect server: ip = 101.133.149.35, port = 53500
+client close
+client connect server: ip = 101.133.149.35, port = 54056
+client close
+client connect server: ip = 101.133.149.35, port = 54906
+client close
+client connect server: ip = 101.133.149.35, port = 55716
+client close
+client connect server: ip = 101.133.149.35, port = 56374
+client close
+client connect server: ip = 101.133.149.35, port = 57400
+client close
+client connect server: ip = 101.133.149.35, port = 58294
+client close
+client connect server: ip = 101.133.149.35, port = 59036
+client close
+client connect server: ip = 101.133.149.35, port = 59958
+client close
+client connect server: ip = 101.133.149.35, port = 60610
+client close
+client connect server: ip = 101.133.149.35, port = 33096
+client close
+client connect server: ip = 101.133.149.35, port = 33588
+client close
+client connect server: ip = 101.133.149.35, port = 34234
+client close
+client connect server: ip = 101.133.149.35, port = 34928
+client close
+client connect server: ip = 101.133.149.35, port = 35452
+client close
+client connect server: ip = 101.133.149.35, port = 35920
+client close
+client connect server: ip = 101.133.149.35, port = 36980
+client close
+client connect server: ip = 101.133.149.35, port = 37588
+client close
+client connect server: ip = 101.133.149.35, port = 40320
+client close
+client connect server: ip = 101.133.149.35, port = 41652
+client close
+client connect server: ip = 101.133.149.35, port = 32
+client close
+client connect server: ip = 116.26.130.51, port = 21315
+client connect server: ip = 116.26.130.51, port = 21321
+client close
+client connect server: ip = 116.26.130.51, port = 21470
+client close
+client connect server: ip = 116.26.130.51, port = 17537
+client close
+client close
+client connect server: ip = 116.26.130.51, port = 17688
+client close
+client connect server: ip = 116.26.130.51, port = 17802
+client close
+client connect server: ip = 116.26.130.51, port = 17818
+client close
+client connect server: ip = 116.26.130.51, port = 17830
+client connect server: ip = 116.26.130.51, port = 17836
+client close
+client connect server: ip = 116.26.130.51, port = 17855
+client close
+client close
+client connect server: ip = 116.26.130.51, port = 17867
+client close
+client connect server: ip = 116.26.130.51, port = 17885
+client close
+client connect server: ip = 116.26.130.51, port = 17906
+client close
+client connect server: ip = 116.26.130.51, port = 17943
+client close
+client connect server: ip = 116.26.130.51, port = 17957
+client close
+client connect server: ip = 116.26.130.51, port = 17970
+client close
+client connect server: ip = 116.26.130.51, port = 19013
+client close
+client connect server: ip = 116.26.130.51, port = 19019
+client close
+client connect server: ip = 116.26.130.51, port = 19041
+client close
+client connect server: ip = 116.26.130.51, port = 19059
+client close
+client connect server: ip = 124.235.138.88, port = 44794
+client close
+client connect server: ip = 1.27.49.145, port = 10197
+client connect server: ip = 1.27.49.145, port = 10196
+client connect server: ip = 1.27.49.145, port = 10195
+client connect server: ip = 1.27.49.145, port = 10198
+client connect server: ip = 1.27.49.145, port = 10203
+client connect server: ip = 1.27.49.145, port = 11076
+client connect server: ip = 1.27.49.145, port = 11252
+client connect server: ip = 1.27.49.145, port = 9287
+client connect server: ip = 1.27.49.145, port = 9283
+PHP Warning:  socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [104]: Connection reset by peer in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client close
+client close
+client close
+client close
+client close
+client close
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 45.141.87.10, port = 64062
+client connect server: ip = 185.216.140.6, port = 43322
+client close
+client connect server: ip = 122.228.19.79, port = 55241
+client close
+PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+
+Warning: socket_read(): unable to read from socket [110]: Connection timed out in /www/wwwroot/47.115.34.14/dormitoryPHP/server.php on line 41
+client close
+client connect server: ip = 106.14.220.45, port = 48399
+client close
+client connect server: ip = 101.133.224.44, port = 56964
+client close
+client connect server: ip = 101.133.224.44, port = 59656
+client close
+client connect server: ip = 101.133.224.44, port = 60564
+client close
+client connect server: ip = 101.133.224.44, port = 33244
+client close
+client connect server: ip = 101.133.224.44, port = 34844
+client close
+client connect server: ip = 101.133.224.44, port = 35896
+client close
+client connect server: ip = 101.133.224.44, port = 36672
+client close
+client connect server: ip = 101.133.224.44, port = 37820
+client close
+client connect server: ip = 101.133.224.44, port = 39248
+client close
+client connect server: ip = 101.133.224.44, port = 40776
+client close
+client connect server: ip = 101.133.224.44, port = 42864
+client close
+client connect server: ip = 101.133.224.44, port = 43768
+client close
+client connect server: ip = 101.133.224.44, port = 44742
+client close
+client connect server: ip = 101.133.224.44, port = 45916
+client close
+client connect server: ip = 101.133.224.44, port = 46974
+client close
+client connect server: ip = 101.133.224.44, port = 48066
+client close
+client connect server: ip = 101.133.224.44, port = 49282
+client close
+client connect server: ip = 101.133.224.44, port = 50576
+client close
+client connect server: ip = 101.133.224.44, port = 51640
+client close
+client connect server: ip = 101.133.224.44, port = 52488
+client close
+client connect server: ip = 101.133.224.44, port = 53570
+client close
+client connect server: ip = 101.133.224.44, port = 54608
+client close
+client connect server: ip = 101.133.224.44, port = 56000
+client close
+client connect server: ip = 101.133.224.44, port = 56868
+client close
+client connect server: ip = 101.133.224.44, port = 57612
+client close
+client connect server: ip = 101.133.224.44, port = 58372
+client close
+client connect server: ip = 101.133.224.44, port = 59130
+client close
+client connect server: ip = 101.133.224.44, port = 59868
+client close
+client connect server: ip = 101.133.224.44, port = 60790
+client close
+client connect server: ip = 101.133.224.44, port = 33252
+client close
+client connect server: ip = 101.133.224.44, port = 34400
+client close
+client connect server: ip = 101.133.224.44, port = 35114
+client close
+client connect server: ip = 101.133.224.44, port = 37028
+client close
+client connect server: ip = 101.133.224.44, port = 38036
+client close
+client connect server: ip = 101.133.224.44, port = 38796
+client close
+client connect server: ip = 101.133.224.44, port = 39644
+client close
+client connect server: ip = 101.133.224.44, port = 40478
+client close
+client connect server: ip = 101.133.224.44, port = 41422
+client close
+client connect server: ip = 101.133.224.44, port = 42000
+client close
+client connect server: ip = 101.133.224.44, port = 42736
+client close
+client connect server: ip = 101.133.224.44, port = 43522
+client close
+client connect server: ip = 101.133.224.44, port = 44488
+client close
+client connect server: ip = 101.133.224.44, port = 45456
+client close
+client connect server: ip = 101.133.224.44, port = 46172
+client close
+client connect server: ip = 101.133.224.44, port = 47072
+client close
+client connect server: ip = 101.133.224.44, port = 47884
+client close
+client connect server: ip = 101.133.224.44, port = 49054
+client close
+client connect server: ip = 101.133.224.44, port = 49780
+client close
+client connect server: ip = 101.133.224.44, port = 50788
+client close
+client connect server: ip = 101.133.224.44, port = 51880
+client close
+client connect server: ip = 101.133.224.44, port = 52766
+client close
+client connect server: ip = 101.133.224.44, port = 53662
+client close
+client connect server: ip = 101.133.224.44, port = 54626
+client close
+client connect server: ip = 101.133.224.44, port = 55698
+client close
+client connect server: ip = 101.133.224.44, port = 57226
+client close
+client connect server: ip = 101.133.224.44, port = 58158
+client close
+client connect server: ip = 101.133.224.44, port = 59534
+client close
+client connect server: ip = 101.133.224.44, port = 60720
+client close
+client connect server: ip = 101.133.224.44, port = 33402
+client close
+client connect server: ip = 101.133.224.44, port = 34494
+client close
+client connect server: ip = 101.133.224.44, port = 35298
+client close
+client connect server: ip = 101.133.224.44, port = 36240
+client close
+client connect server: ip = 101.133.224.44, port = 37442
+client close
+client connect server: ip = 101.133.224.44, port = 38568
+client close
+client connect server: ip = 101.133.224.44, port = 39694
+client close
+client connect server: ip = 101.133.224.44, port = 40912
+client close
+client connect server: ip = 101.133.224.44, port = 42072
+client close
+client connect server: ip = 101.133.224.44, port = 43146
+client close
+client connect server: ip = 101.133.224.44, port = 44104
+client close
+client connect server: ip = 101.133.224.44, port = 49894
+client close
+client connect server: ip = 101.133.224.44, port = 51960
+client close
+client connect server: ip = 101.133.224.44, port = 723
+client close
+client connect server: ip = 119.23.174.205, port = 49614
+client close
+client connect server: ip = 101.133.224.44, port = 52058
+client close
+client connect server: ip = 101.133.224.44, port = 54420
+client close
+client connect server: ip = 101.133.224.44, port = 55448
+client close
+client connect server: ip = 101.133.224.44, port = 56802
+client close
+client connect server: ip = 101.133.224.44, port = 57912
+client close
+client connect server: ip = 101.133.224.44, port = 59010
+client close
+client connect server: ip = 101.133.224.44, port = 60204
+client close
+client connect server: ip = 101.133.224.44, port = 32824
+client close
+client connect server: ip = 101.133.224.44, port = 34110
+client close
+client connect server: ip = 101.133.224.44, port = 35984
+client close
+client connect server: ip = 101.133.224.44, port = 37318
+client close
+client connect server: ip = 101.133.224.44, port = 38398
+client close
+client connect server: ip = 101.133.224.44, port = 39488
+client close
+client connect server: ip = 101.133.224.44, port = 40334
+client close
+client connect server: ip = 101.133.224.44, port = 41548
+client close
+client connect server: ip = 101.133.224.44, port = 42484
+client close
+client connect server: ip = 101.133.224.44, port = 43378
+client close
+client connect server: ip = 101.133.224.44, port = 44044
+client close
+client connect server: ip = 101.133.224.44, port = 45220
+client close
+client connect server: ip = 101.133.224.44, port = 46274
+client close
+client connect server: ip = 101.133.224.44, port = 47210
+client close
+client connect server: ip = 101.133.224.44, port = 48158
+client close
+client connect server: ip = 101.133.224.44, port = 49348
+client close
+client connect server: ip = 101.133.224.44, port = 50348
+client close
+client connect server: ip = 101.133.224.44, port = 51134
+client close
+client connect server: ip = 101.133.224.44, port = 51932
+client close
+client connect server: ip = 101.133.224.44, port = 53154
+client close
+client connect server: ip = 101.133.224.44, port = 54348
+client close
+client connect server: ip = 101.133.224.44, port = 55014
+client close
+client connect server: ip = 101.133.224.44, port = 55892
+client close
+client connect server: ip = 101.133.224.44, port = 56758
+client close
+client connect server: ip = 101.133.224.44, port = 57476
+client close
+client connect server: ip = 101.133.224.44, port = 59248
+client close
+client connect server: ip = 101.133.224.44, port = 59906
+client close
+client connect server: ip = 101.133.224.44, port = 60564
+client close
+client connect server: ip = 101.133.224.44, port = 33156
+client close
+client connect server: ip = 101.133.224.44, port = 33956
+client close
+client connect server: ip = 101.133.224.44, port = 34760
+client close
+client connect server: ip = 101.133.224.44, port = 35592
+client close
+client connect server: ip = 101.133.224.44, port = 36460
+client close
+client connect server: ip = 101.133.224.44, port = 37336
+client close
+client connect server: ip = 101.133.224.44, port = 38000
+client close
+client connect server: ip = 101.133.224.44, port = 39094
+client close
+client connect server: ip = 101.133.224.44, port = 40038
+client close
+client connect server: ip = 101.133.224.44, port = 41390
+client close
+client connect server: ip = 101.133.224.44, port = 42114
+client close
+client connect server: ip = 101.133.224.44, port = 43088
+client close
+client connect server: ip = 101.133.224.44, port = 43972
+client close
+client connect server: ip = 101.133.224.44, port = 45190
+client close
+client connect server: ip = 101.133.224.44, port = 46136
+client close
+client connect server: ip = 101.133.224.44, port = 46818
+client close
+client connect server: ip = 101.133.224.44, port = 47492
+client close
+client connect server: ip = 101.133.224.44, port = 48496
+client close
+client connect server: ip = 101.133.224.44, port = 49018
+client close
+client connect server: ip = 101.133.224.44, port = 49888
+client close
+client connect server: ip = 101.133.224.44, port = 50594
+client close
+client connect server: ip = 101.133.224.44, port = 51774
+client close
+client connect server: ip = 101.133.224.44, port = 52546
+client close
+client connect server: ip = 101.133.224.44, port = 53366
+client close
+client connect server: ip = 101.133.224.44, port = 54492
+client close
+client connect server: ip = 101.133.224.44, port = 55046
+client close
+client connect server: ip = 101.133.224.44, port = 56134
+client close
+client connect server: ip = 101.133.224.44, port = 56990
+client close
+client connect server: ip = 101.133.224.44, port = 58262
+client close
+client connect server: ip = 101.133.224.44, port = 59244
+client close
+client connect server: ip = 101.133.224.44, port = 60114
+client close
+client connect server: ip = 101.133.224.44, port = 60904
+client close
+client connect server: ip = 101.133.224.44, port = 33448
+client close
+client connect server: ip = 101.133.224.44, port = 34658
+client close
+client connect server: ip = 101.133.224.44, port = 36456
+client close
+client connect server: ip = 101.133.224.44, port = 38346
+client close
+client connect server: ip = 101.133.224.44, port = 657
+client close
+client connect server: ip = 101.133.226.32, port = 33046
+client close
+client connect server: ip = 101.133.226.32, port = 35956
+client close
+client connect server: ip = 101.133.226.32, port = 37544
+client close
+client connect server: ip = 101.133.226.32, port = 38670
+client close
+client connect server: ip = 101.133.226.32, port = 39936
+client close
+client connect server: ip = 101.133.226.32, port = 41066
+client close
+client connect server: ip = 101.133.226.32, port = 42204
+client close
+client connect server: ip = 101.133.226.32, port = 43250
+client close
+client connect server: ip = 101.133.226.32, port = 44068
+client close
+client connect server: ip = 101.133.226.32, port = 45344
+client close
+client connect server: ip = 101.133.226.32, port = 46562
+client close
+client connect server: ip = 101.133.226.32, port = 47522
+client close
+client connect server: ip = 101.133.226.32, port = 48544
+client close
+client connect server: ip = 101.133.226.32, port = 49198
+client close
+client connect server: ip = 101.133.226.32, port = 49982
+client close
+client connect server: ip = 101.133.226.32, port = 50946
+client close
+client connect server: ip = 101.133.226.32, port = 51686
+client close
+client connect server: ip = 101.133.226.32, port = 52352
+client close
+client connect server: ip = 101.133.226.32, port = 53096
+client close
+client connect server: ip = 101.133.226.32, port = 53842
+client close
+client connect server: ip = 101.133.226.32, port = 54690
+client close
+client connect server: ip = 101.133.226.32, port = 55286
+client close
+client connect server: ip = 101.133.226.32, port = 56570
+client close
+client connect server: ip = 101.133.226.32, port = 57390
+client close
+client connect server: ip = 101.133.226.32, port = 58108
+client close
+client connect server: ip = 101.133.226.32, port = 58922
+client close
+client connect server: ip = 101.133.226.32, port = 59660
+client close
+client connect server: ip = 101.133.226.32, port = 60798
+client close
+client connect server: ip = 101.133.226.32, port = 33554
+client close
+client connect server: ip = 101.133.226.32, port = 34440
+client close
+client connect server: ip = 101.133.226.32, port = 35494
+client close
+client connect server: ip = 101.133.226.32, port = 36234
+client close
+client connect server: ip = 101.133.226.32, port = 38924
+client close
+client connect server: ip = 101.133.226.32, port = 39618
+client close
+client connect server: ip = 101.133.226.32, port = 40414
+client close
+client connect server: ip = 101.133.226.32, port = 41260
+client close
+client connect server: ip = 101.133.226.32, port = 42170
+client close
+client connect server: ip = 101.133.226.32, port = 43008
+client close
+client connect server: ip = 101.133.226.32, port = 44248
+client close
+client connect server: ip = 101.133.226.32, port = 45162
+client close
+client connect server: ip = 101.133.226.32, port = 46260
+client close
+client connect server: ip = 101.133.226.32, port = 47136
+client close
+client connect server: ip = 101.133.226.32, port = 48024
+client close
+client connect server: ip = 101.133.226.32, port = 48998
+client close
+client connect server: ip = 101.133.226.32, port = 49966
+client close
+client connect server: ip = 101.133.226.32, port = 50672
+client close
+client connect server: ip = 101.133.226.32, port = 51740
+client close
+client connect server: ip = 101.133.226.32, port = 52436
+client close
+client connect server: ip = 101.133.226.32, port = 53278
+client close
+client connect server: ip = 101.133.226.32, port = 53938
+client close
+client connect server: ip = 101.133.226.32, port = 54862
+client close
+client connect server: ip = 101.133.226.32, port = 55530
+client close
+client connect server: ip = 101.133.226.32, port = 56238
+client close
+client connect server: ip = 101.133.226.32, port = 57180
+client close
+client connect server: ip = 101.133.226.32, port = 57880
+client close
+client connect server: ip = 101.133.226.32, port = 58644
+client close
+client connect server: ip = 101.133.226.32, port = 59418
+client close
+client connect server: ip = 101.133.226.32, port = 60120
+client close
+client connect server: ip = 101.133.226.32, port = 60804
+client close
+client connect server: ip = 101.133.226.32, port = 33292
+client close
+client connect server: ip = 101.133.226.32, port = 34122
+client close
+client connect server: ip = 101.133.226.32, port = 34986
+client close
+client connect server: ip = 101.133.226.32, port = 35476
+client close
+client connect server: ip = 101.133.226.32, port = 36352
+client close
+client connect server: ip = 101.133.226.32, port = 36956
+client close
+client connect server: ip = 101.133.226.32, port = 37594
+client close
+client connect server: ip = 101.133.226.32, port = 38238
+client close
+client connect server: ip = 101.133.226.32, port = 38892
+client close
+client connect server: ip = 101.133.226.32, port = 39372
+client close
+client connect server: ip = 101.133.226.32, port = 40552
+client close
+client connect server: ip = 101.133.226.32, port = 42448
+client close
+client connect server: ip = 101.133.226.32, port = 773
+client close
+client connect server: ip = 77.247.108.77, port = 43744
+client close
+client connect server: ip = 77.247.108.77, port = 52420
+client close

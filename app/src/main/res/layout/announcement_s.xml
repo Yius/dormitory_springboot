@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="15dp"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="#fff"
+    app:cardElevation="6dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--这是公告编号-->
+            <!--        <TextView-->
+            <!--            android:id="@+id/tv_theID"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:text="无"-->
+            <!--            android:paddingLeft="4dp"-->
+            <!--            android:textSize="15sp"/>-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginVertical="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="标题"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="无"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#111111"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginVertical="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发布时间"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_Atime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="yyyy-MM-dd HH:mm::ss"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#111111"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <!--查看按钮-->
+        <com.xuexiang.xui.widget.textview.supertextview.SuperButton
+            android:id="@+id/check_announcement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="@color/design_default_color_background"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            app:sCornersRadius="10dp"
+            app:sSelectorNormalColor="@color/colorPrimary"
+            app:sSelectorPressedColor="#9E9E9E"
+            app:sUseSelector="true"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

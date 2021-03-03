@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/label_registerDate"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_toLeftOf="@id/tv_registerDate"
+        android:textColor="#000000"
+        android:text="提交日期:"/>
+    <TextView
+        android:id="@+id/tv_registerDate"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="yyyy-MM-dd HH:mm::ss"/>
+
+    <TextView
+        android:id="@+id/dormID"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="所在宿舍:"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="15dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_dormID"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/dormID"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="无"/>
+
+    <TextView
+        android:id="@+id/ID"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="学生学号:"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/dormID"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_ID"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/dormID"
+        android:layout_toRightOf="@id/ID"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="无"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="学生姓名:"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_below="@id/ID"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/name"
+        android:layout_below="@id/tv_ID"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="无"/>
+
+    <TextView
+        android:id="@+id/departCause"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="离宿原因:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_departCause"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="无"
+        android:scrollbars="vertical"
+        android:clickable="true"
+        android:maxLines="5"
+        android:layout_below="@id/departCause"
+        android:layout_marginLeft="15dp"
+        android:textSize="18sp"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="联系方式:"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_below="@id/tv_departCause"
+        android:layout_marginLeft="15dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_contact"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_departCause"
+        android:layout_toRightOf="@id/contact"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="无"/>
+
+    <TextView
+        android:id="@+id/departTime"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="离宿时间:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_below="@id/contact"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/backTime"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="返校时间:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_below="@id/departTime"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_departTime"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="yyyy-MM-dd HH:mm::ss"
+        android:layout_toRightOf="@id/departTime"
+        android:layout_below="@id/contact"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_backTime"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="yyyy-MM-dd HH:mm::ss"
+        android:layout_toRightOf="@id/backTime"
+        android:layout_below="@id/departTime"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

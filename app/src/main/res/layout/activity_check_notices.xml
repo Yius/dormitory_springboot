@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/timg">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_check"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        >
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/bt_sign"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="55dp"
+        android:background="@drawable/button_main"
+        android:text="签到通知"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/bt_announcement"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/bt_sign"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/button_main"
+        android:text="公告通知"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
+

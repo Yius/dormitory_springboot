@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:cardCornerRadius="50dp"-->
+<!--        app:cardBackgroundColor="#F8F8FF">-->
+<!--        &lt;!&ndash;按钮默认隐藏，根据repair的status再在代码中设为是否可见&ndash;&gt;-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/bt_handled"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="35dp"-->
+<!--                android:text="标为已处理"-->
+<!--                android:textColor="#000000"-->
+<!--                android:background="#00000000"-->
+<!--                android:textSize="16sp"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_marginRight="12dp"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:visibility="gone"/>-->
+
+            <TextView
+                android:id="@+id/dormIDDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="申请宿舍:"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="15dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_dormIDDetail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/dormIDDetail"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="无" />
+
+            <TextView
+                android:id="@+id/RepairName"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="维修物件:"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/dormIDDetail"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_RepairName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/dormIDDetail"
+                android:layout_toRightOf="@id/RepairName"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="无"
+                android:scrollbars="vertical"/>
+
+            <TextView
+                android:id="@+id/DamageCause"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="损坏原因:"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@id/RepairName"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_DamageCause"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/DamageCause"
+                android:layout_below="@+id/tv_RepairName"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="无"
+                android:scrollbars="vertical"/>
+
+            <TextView
+                android:id="@+id/Details"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="详细描述:"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_below="@+id/Contact"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_Details"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:text="无"
+                android:scrollbars="vertical"
+                android:clickable="true"
+                android:maxLines="5"
+                android:layout_below="@id/Details"
+                android:layout_marginLeft="15dp"
+                android:textSize="18sp"
+                android:layout_marginRight="15dp"/>
+
+            <TextView
+                android:id="@+id/Contact"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="联系方式:"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@+id/DamageCause"
+                android:layout_marginLeft="15dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_Contact"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="phone"
+                android:layout_alignBottom="@+id/Contact"
+                android:layout_toRightOf="@+id/Contact"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="无"/>
+
+            <TextView
+                android:id="@+id/OtherRemarks"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="其他备注:"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_below="@+id/tv_Details"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_OtherRemarks"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:scrollbars="vertical"
+                android:clickable="true"
+                android:maxLines="5"
+                android:text="无"
+                android:layout_below="@id/OtherRemarks"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="18sp"
+                />
+
+<!--        </RelativeLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+</RelativeLayout>

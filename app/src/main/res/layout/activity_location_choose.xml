@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </com.amap.api.maps.MapView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/map"
+        android:gravity="center_vertical"
+        android:text="签到地址："
+        android:id="@+id/address"
+        android:layout_marginLeft="10dp"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_place"
+        android:layout_toRightOf="@id/address"
+        android:layout_toLeftOf="@id/bt_ok"
+        android:layout_width="match_parent"
+        android:hint="请在此输入地址"
+        android:layout_height="50dp"
+        android:layout_below="@id/map"
+        android:layout_centerHorizontal="true"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/bt_ok"
+        android:layout_height="50dp"
+        android:text="确定"
+        android:layout_below="@id/map"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        ></Button>
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_place"
+        android:id="@+id/lv"></ListView>
+
+</RelativeLayout>

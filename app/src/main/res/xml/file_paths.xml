@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--用于存放应用需要共享的目录文件。用于拍照上传头像-->
+<paths>
+    <!--path设为空值表示将整个sd卡共享-->
+    <!--    <external-path-->
+    <!--        name="my_images"-->
+    <!--        path="." />-->
+    <external-path path="Android/data/com/example/xin/dormitory/" name="files_root" />
+    <external-path path="." name="external_storage_root" />
+    <external-path name="external_files" path="."/>
+
+</paths>
