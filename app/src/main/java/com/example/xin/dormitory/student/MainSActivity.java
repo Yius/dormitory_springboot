@@ -235,9 +235,6 @@ public class MainSActivity extends AppCompatActivity {
                     case R.id.nav_sign_in:
                         intent = new Intent(MainSActivity.this,CheckSignNoticesActivity.class);
                         break;
-                    case R.id.nav_contact_us:
-                        intent = new Intent(MainSActivity.this, AboutUs.class);
-                        break;
                     default:
                         break;
                 }
