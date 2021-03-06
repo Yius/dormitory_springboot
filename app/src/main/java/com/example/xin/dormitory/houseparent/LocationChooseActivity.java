@@ -195,7 +195,7 @@ public class LocationChooseActivity extends AppCompatActivity implements Inputti
                 .add("title",title).add("govern",pref.getString("govern","")).add("latitude",String.valueOf(latitude))
                 .add("longitude",String.valueOf(longitude)).add("detailAddress",detailAddress).add("houseparentName",pref.getString("name","")).build();
         //服务器地址，ip地址需要时常更换
-        String address=HttpUtil.address+"createNewSign.php";
+        String address=HttpUtil.address+"createNewSign";
         Request request = new Request.Builder().url(address).post(requestBody).build();
         //匿名内部类实现回调接口
         client.newCall(request).enqueue(new okhttp3.Callback(){

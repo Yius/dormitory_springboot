@@ -59,7 +59,7 @@ public class LoginActivity extends AppCompatActivity {
                             public void onClick(DialogInterface dialog, int which) {
                                 if(!(et_host.getText().toString()).equals("")) {
                                     HttpUtil.host = et_host.getText().toString();
-                                    HttpUtil.address = "http://"+et_host.getText().toString()+":80/dormitoryPHP/";
+                                    HttpUtil.address = "http://"+et_host.getText().toString()+":8080/";
                                     runOnUiThread(new Runnable() {
                                         @Override
                                         public void run() {
@@ -157,9 +157,9 @@ public class LoginActivity extends AppCompatActivity {
         //服务器地址，ip地址需要时常更换
         String address = null;
         if(student.isChecked()) {
-            address = HttpUtil.address+"loginS.php";
+            address = HttpUtil.address+"loginS";
         }else if(houseparent.isChecked()) {
-            address = HttpUtil.address+"loginH.php";
+            address = HttpUtil.address+"loginH";
         }
         Request request = new Request.Builder().url(address).post(requestBody).build();
         //匿名内部类实现回调接口

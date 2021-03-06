@@ -127,7 +127,7 @@ public class PersonalPostAdapter extends RecyclerView.Adapter<PersonalPostAdapte
                                         OkHttpClient client = new OkHttpClient();
                                         RequestBody requestBody = new FormBody.Builder().add("PostsID", PostsID).build();
                                         //服务器地址，ip地址需要时常更换
-                                        String address = HttpUtil.address + "deletePosts.php";
+                                        String address = HttpUtil.address + "deletePosts";
                                         Request request = new Request.Builder().url(address).post(requestBody).build();
                                         client.newCall(request).enqueue(new okhttp3.Callback() {
                                             @Override

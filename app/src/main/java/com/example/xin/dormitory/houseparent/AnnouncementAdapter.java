@@ -103,7 +103,7 @@ public class AnnouncementAdapter extends RecyclerView.Adapter<AnnouncementAdapte
                 OkHttpClient client = new OkHttpClient();
                 RequestBody requestBody = new FormBody.Builder().add("AID", String.valueOf(announcement.getID())).build();
                 //服务器地址，ip地址需要时常更换
-                String address = HttpUtil.address + "deleteAnnouncement.php";
+                String address = HttpUtil.address + "deleteAnnouncement";
                 Request request = new Request.Builder().url(address).post(requestBody).build();
                 //匿名内部类实现回调接口
                 client.newCall(request).enqueue(new okhttp3.Callback() {

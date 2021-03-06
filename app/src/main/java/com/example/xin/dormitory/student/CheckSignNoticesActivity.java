@@ -75,7 +75,7 @@ public class CheckSignNoticesActivity extends AppCompatActivity {
         //SID将用于排除已签到的签到通知
         RequestBody requestBody = new FormBody.Builder().add("belong",pref.getString("belong","")).add("SID",pref.getString("ID","")).build();
         //服务器地址，ip地址需要时常更换
-        String address=HttpUtil.address+"checkSignNoticesInfo.php";
+        String address=HttpUtil.address+"checkSignNoticesInfo";
         Request request = new Request.Builder().url(address).post(requestBody).build();
         //匿名内部类实现回调接口
         client.newCall(request).enqueue(new okhttp3.Callback(){

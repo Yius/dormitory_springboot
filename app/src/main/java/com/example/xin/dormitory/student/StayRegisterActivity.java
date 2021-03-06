@@ -143,7 +143,7 @@ public class StayRegisterActivity extends AppCompatActivity {
                                 .add("dormID", dormID).add("startDate", startDate).add("endDate", endDate)
                                 .add("contact",contact).add("belong",belong).add("name",name).build();
                         //服务器地址，ip地址需要时常更换
-                        String address = HttpUtil.address + "stayRegister.php";
+                        String address = HttpUtil.address + "stayRegister";
                         Request request = new Request.Builder().url(address).post(requestBody).build();
                         //匿名内部类实现回调接口
                         client.newCall(request).enqueue(new okhttp3.Callback() {

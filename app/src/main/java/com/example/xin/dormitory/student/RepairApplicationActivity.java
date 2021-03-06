@@ -90,7 +90,7 @@ public class RepairApplicationActivity extends AppCompatActivity {
                         RequestBody requestBody = new FormBody.Builder().add("ApplyDate", ApplyDate).add("dormID", dormID).add("RepairName", RepairName).add("DamageCause", DamageCause)
                                 .add("Details", Details).add("Contact", Contact).add("OtherRemarks", OtherRemarks).add("belong",belong).build();
                         //服务器地址，ip地址需要时常更换
-                        String address = HttpUtil.address + "repairApply.php";
+                        String address = HttpUtil.address + "repairApply";
                         Request request = new Request.Builder().url(address).post(requestBody).build();
                         //匿名内部类实现回调接口
                         client.newCall(request).enqueue(new okhttp3.Callback() {

@@ -75,7 +75,7 @@ public class PostsSFragment extends Fragment {
         mPostList.clear();
         try {
             OkHttpClient client = new OkHttpClient();
-            Request request = new Request.Builder().url(HttpUtil.address + "getPosts.php").build();
+            Request request = new Request.Builder().url(HttpUtil.address + "getPosts").build();
 //            String responseData = response.body().string();
             client.newCall(request).enqueue(new okhttp3.Callback(){
                 @Override

@@ -7,9 +7,9 @@ import org.json.JSONObject;
 import okhttp3.*;
 
 public class HttpUtil {
-    public static String host = "47.115.34.14";
+    public static String host = "10.252.11.225";
     //服务器地址，ip地址需要时常更换
-    public static String address="http://47.115.34.14:80/dormitoryPHP/";
+    public static String address="http://10.252.11.225:8080/";
     //由于Okhttp3的封装，难以获得php返回的数据，故记录学生ID以及宿管HID，方便之后获取信息的操作,其中学生信息的sharedpreferences文件名为data，宿管为dataH
     //waterCheck和electricityCheck是水电查询的地址，因为sharedPreferences更新可能不够及时，且为了后续判断的方便特地设置的
     public static String waterCheck = null;

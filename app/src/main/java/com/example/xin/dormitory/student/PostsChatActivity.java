@@ -323,7 +323,7 @@ public class PostsChatActivity extends AppCompatActivity {
         RequestBody requestBody = new FormBody.Builder().add("SendTime", SendTime).add("SenderID", SenderID)
                 .add("SenderName", SenderName).add("PostsID",PostsID).add("Message", Message).build();
         //服务器地址，ip地址需要时常更换
-        String address = HttpUtil.address + "addMessage.php";
+        String address = HttpUtil.address + "addMessage";
         Request request = new Request.Builder().url(address).post(requestBody).build();
         //匿名内部类实现回调接口
         client.newCall(request).enqueue(new okhttp3.Callback() {
@@ -364,7 +364,7 @@ public class PostsChatActivity extends AppCompatActivity {
             PostsID = getIntent().getStringExtra("PostsID");
             OkHttpClient client = new OkHttpClient();
             RequestBody requestBody = new FormBody.Builder().add("PostsID",PostsID).build();
-            Request request = new Request.Builder().url(HttpUtil.address + "getMessages.php").post(requestBody).build();
+            Request request = new Request.Builder().url(HttpUtil.address + "getMessages").post(requestBody).build();
             client.newCall(request).enqueue(new okhttp3.Callback(){
                 @Override
                 public void onFailure(Call call, IOException e) {
@@ -484,7 +484,7 @@ public class PostsChatActivity extends AppCompatActivity {
                     public void onClick(View v) {
                         OkHttpClient client = new OkHttpClient();
                         RequestBody requestBody = new FormBody.Builder().add("ID", msg.getId()).build();
-                        String address=HttpUtil.address+"infoS.php";
+                        String address=HttpUtil.address+"infoS";
                         Request request = new Request.Builder().url(address).post(requestBody).build();
                         //匿名内部类实现回调接口
                         client.newCall(request).enqueue(new okhttp3.Callback(){

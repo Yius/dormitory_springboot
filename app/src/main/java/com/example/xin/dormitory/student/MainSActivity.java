@@ -124,7 +124,7 @@ public class MainSActivity extends AppCompatActivity {
         OkHttpClient client = new OkHttpClient();
         RequestBody requestBody = new FormBody.Builder().add("ID",HttpUtil.ID).build();
         //服务器地址，ip地址需要时常更换
-        String address=HttpUtil.address+"infoS.php";
+        String address=HttpUtil.address+"infoS";
         Request request = new Request.Builder().url(address).post(requestBody).build();
         //匿名内部类实现回调接口
         client.newCall(request).enqueue(new okhttp3.Callback(){

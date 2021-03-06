@@ -84,7 +84,7 @@ public class AddPostsActivity extends AppCompatActivity {
                     RequestBody requestBody = new FormBody.Builder().add("LatestReplyTime", PostsDate).add("PostsDate", PostsDate).add("ID", ID).add("name", name).add("postsTitle", postsTitle)
                             .add("postsContent", postsContent).build();
                     //服务器地址，ip地址需要时常更换
-                    String address = HttpUtil.address + "addPosts.php";
+                    String address = HttpUtil.address + "addPosts";
                     Request request = new Request.Builder().url(address).post(requestBody).build();
                     //匿名内部类实现回调接口
                     client.newCall(request).enqueue(new okhttp3.Callback() {

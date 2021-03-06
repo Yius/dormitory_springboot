@@ -172,7 +172,7 @@ public class RegisterActivity extends AppCompatActivity {
                         RequestBody requestBody = new FormBody.Builder().add("ID", ID).add("password", pwd).add("dormID", dorm)
                                 .add("phone", phone).add("name", name).add("nickname", nickname).add("belong", belong).build();
                         //服务器地址，ip地址需要时常更换
-                        String address = HttpUtil.address + "register.php";
+                        String address = HttpUtil.address + "register";
                         Request request = new Request.Builder().url(address).post(requestBody).build();
                         //匿名内部类实现回调接口
                         client.newCall(request).enqueue(new okhttp3.Callback() {

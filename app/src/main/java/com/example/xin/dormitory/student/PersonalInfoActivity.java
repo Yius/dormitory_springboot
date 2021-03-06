@@ -214,7 +214,7 @@ public class PersonalInfoActivity extends AppCompatActivity {
         try {
             OkHttpClient client = new OkHttpClient();
             RequestBody requestBody = new FormBody.Builder().add("ID",id.getText().toString()).build();
-            Request request = new Request.Builder().url(HttpUtil.address + "getPersonalPosts.php").post(requestBody).build();
+            Request request = new Request.Builder().url(HttpUtil.address + "getPersonalPosts").post(requestBody).build();
 //            String responseData = response.body().string();
             client.newCall(request).enqueue(new okhttp3.Callback(){
                 @Override
