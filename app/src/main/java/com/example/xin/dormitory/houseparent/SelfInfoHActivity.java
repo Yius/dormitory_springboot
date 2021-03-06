@@ -289,7 +289,7 @@ public class SelfInfoHActivity extends AppCompatActivity {
                 .build();
 
         Request request = new Request.Builder()
-                .url(HttpUtil.address + "uploadAvatar.php")
+                .url(HttpUtil.address + "uploadAvatar")
                 .post(multipartBody)
                 .build();
 
