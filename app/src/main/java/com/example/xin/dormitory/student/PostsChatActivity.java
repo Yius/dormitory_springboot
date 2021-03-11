@@ -47,12 +47,21 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.lang.ref.WeakReference;
+import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.nio.ByteBuffer;
+import java.nio.channels.SelectionKey;
+import java.nio.channels.Selector;
+import java.nio.channels.SocketChannel;
+import java.nio.charset.Charset;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 import okhttp3.Call;
@@ -74,14 +83,13 @@ public class PostsChatActivity extends AppCompatActivity {
     private String PostsID;
     private String SenderID;
     private String SenderName;
-    private BufferedReader reader;
-    private BufferedWriter writer;
-    private Socket socket;
     private int status = 1;
     private Drawable ic_show;
     private Drawable ic_hide;
     private Spannable sp;
     private boolean isConnect;
+    private SocketChannel socketChannel;
+    private Selector selector;
 
     Handler handler = new Handler(){
         @Override
@@ -129,8 +137,8 @@ public class PostsChatActivity extends AppCompatActivity {
         adapter = new MsgAdapter(msgList);
         msgRecyclerView.setAdapter(adapter);
 
-        connect();
-
+//        connect();
+        initSocket();
         String Title = getIntent().getStringExtra("Title");
         String Content = getIntent().getStringExtra("Content");
         String details = Title+"\n\n"+Content;
@@ -199,8 +207,7 @@ public class PostsChatActivity extends AppCompatActivity {
                                     }
                                 });
                                 try {
-                                    writer.write(PostsID + " " +SenderID+" "+ SenderName + " " + message + "\n");
-                                    writer.flush();
+                                    socketChannel.write(Charset.forName("UTF-8").encode(PostsID + " " +SenderID+" "+ SenderName + " " + message));
                                 } catch (IOException e) {
                                     e.printStackTrace();
                                 }
@@ -237,30 +244,29 @@ public class PostsChatActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         try {
-            socket.close();
+            socketChannel.socket().close();
+            socketChannel.close();
         }catch(Exception e){
             e.printStackTrace();
         }
         super.onDestroy();
     }
 
-    /**
-     * 连接socket服务端
-     */
-    public void connect(){
-        //host和port与服务端server.php里的保持一致,看一下server.php文件。。
-        //注意要在宝塔面板放行相应端口
-        final String host = HttpUtil.host;
-        final int port = 8889;
-        AsyncTask<Void, String , Void> read = new AsyncTask<Void, String, Void>() {
+
+    private void initSocket(){
+        new Thread(new Runnable(){
             @Override
-            protected Void doInBackground(Void... voids) {
+            public void run() {
+                final int port = 8889;
                 try{
-                    socket = new Socket(host, port);
-                    writer = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
-                    reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                    socketChannel = SocketChannel.open(new InetSocketAddress(HttpUtil.host, port));
+                    // selector,socketChannel,注册
+                    selector = Selector.open();
+                    socketChannel.configureBlocking(false);
+                    socketChannel.register(selector, SelectionKey.OP_READ);
+                    new Thread(new NioClientHandler(selector)).start();
                     isConnect = true;
-                }catch(UnknownHostException e1){
+                }catch(Exception e){
                     isConnect = false;
                     runOnUiThread(new Runnable() {
                         @Override
@@ -268,8 +274,94 @@ public class PostsChatActivity extends AppCompatActivity {
                             Toast.makeText(PostsChatActivity.this,"连接聊天服务器失败，无法实时收到信息",Toast.LENGTH_SHORT).show();
                         }
                     });
-                    e1.printStackTrace();
-                }catch(IOException e){
+                    e.printStackTrace();
+                }
+            }
+        }).start();
+    }
+
+
+    public class NioClientHandler implements Runnable{
+
+        private Selector selector;
+
+        public NioClientHandler(Selector selector) {
+            this.selector = selector;
+        }
+
+        @Override
+        public void run() {
+
+            try {
+                while (true){
+                    int readyChannels = selector.select();
+                    if(readyChannels == 0) continue;
+                    Set<SelectionKey> selectionKeys = selector.selectedKeys();
+                    Iterator<SelectionKey> iterator = selectionKeys.iterator();
+                    while (iterator.hasNext()){
+                        SelectionKey selectionKey = iterator.next();
+                        iterator.remove();
+                        // 如果是可读事件
+                        if(selectionKey.isReadable()){
+                            publishProgress(readHandler(selectionKey, selector));
+                        }
+                    }
+                }
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+
+        }
+    }
+
+
+    private void publishProgress(String... values) {
+        if(isConnect) {
+            String[] splited = values[0].split(" ");
+            String recvPostsID = splited[0];
+            if (recvPostsID.equals(PostsID)) {
+                Message msg = new Message();
+                msg.setId(splited[1]);
+                msg.setName(splited[2]);
+                msg.setContent(splited[3]);
+                msg.setType(Message.TYPE_RECEIVED);
+                msgList.add(msg);
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        adapter.notifyItemInserted(msgList.size() - 1);
+                        msgRecyclerView.scrollToPosition(msgList.size() - 1);
+                    }
+                });
+            }
+        }
+    }
+
+
+    /**
+     * 连接socket服务端
+     */
+    public void connect(){
+        //host和port与服务端server.php里的保持一致,看一下server.php文件。。
+        //注意要在宝塔面板放行相应端口
+        final int port = 8889;
+        AsyncTask<Void, String , Void> read = new AsyncTask<Void, String, Void>() {
+            @Override
+            protected Void doInBackground(Void... voids) {
+                try{
+                    socketChannel = SocketChannel.open(new InetSocketAddress(HttpUtil.host, port));
+                    // selector,socketChannel,注册
+                    selector = Selector.open();
+                    socketChannel.configureBlocking(false);
+                    socketChannel.register(selector, SelectionKey.OP_READ);
+                    isConnect = true;
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            Toast.makeText(PostsChatActivity.this,"isConnect设置",Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                }catch(Exception e){
                     isConnect = false;
                     runOnUiThread(new Runnable() {
                         @Override
@@ -281,9 +373,19 @@ public class PostsChatActivity extends AppCompatActivity {
                 }
                 if(isConnect) {
                     try {
-                        String line;
-                        while ((line = reader.readLine()) != null) {
-                            publishProgress(line);
+                        while(true) {
+                            int readyChannels = selector.select();
+                            if (readyChannels == 0) return null;
+                            Set<SelectionKey> selectionKeys = selector.selectedKeys();
+                            Iterator<SelectionKey> iterator = selectionKeys.iterator();
+                            while (iterator.hasNext()) {
+                                SelectionKey selectionKey = iterator.next();
+                                iterator.remove();
+                                // 如果是可读事件
+                                if (selectionKey.isReadable()) {
+                                    publishProgress(readHandler(selectionKey, selector));
+                                }
+                            }
                         }
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -314,6 +416,35 @@ public class PostsChatActivity extends AppCompatActivity {
         read.execute();
 
     }
+
+
+    private String readHandler(SelectionKey selectionKey, Selector selector) {
+        // 从selectionKey中获取就绪的channel
+        SocketChannel socketChannel = (SocketChannel) selectionKey.channel();
+        // 创建buffer
+        ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
+        // 使用buffer循环读取服务器端响应信息
+        StringBuilder response = new StringBuilder();
+        try {
+            while (socketChannel.read(byteBuffer) > 0) {
+                // 切换buffer为读模式
+                byteBuffer.flip();
+                //读取buffer中的内容
+                response.append(Charset.forName("UTF-8").decode(byteBuffer));
+            }
+
+            // 将channel再次注册到selector上，监听他的可读事件
+            socketChannel.register(selector, SelectionKey.OP_READ);
+            return response.toString();
+
+        }catch (IOException e){
+
+        }
+        return null;
+    }
+
+
+
 
     /**
      *发送消息时存入数据库
