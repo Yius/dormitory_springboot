@@ -74,7 +74,7 @@ public class DeliverAnnouncementActivity extends AppCompatActivity{
                 case R.id.bt_deliver:
                     String content = et_content.getText().toString();
                     String title = inner_title.getText().toString();
-                    SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm::ss");
+                    SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                     String Atime = formatter.format(new Date(System.currentTimeMillis()));
                     SharedPreferences pref = getSharedPreferences("dataH",MODE_PRIVATE);
                     OkHttpClient client = new OkHttpClient();

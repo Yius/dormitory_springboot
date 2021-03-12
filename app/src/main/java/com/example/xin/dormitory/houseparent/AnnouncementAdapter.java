@@ -1,6 +1,7 @@
 package com.example.xin.dormitory.houseparent;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Handler;
 import android.os.Looper;
 import android.text.method.ScrollingMovementMethod;
@@ -28,6 +29,8 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
+
+import static android.content.Context.MODE_PRIVATE;
 
 public class AnnouncementAdapter extends RecyclerView.Adapter<AnnouncementAdapter.ViewHolder> {
 
@@ -101,7 +104,7 @@ public class AnnouncementAdapter extends RecyclerView.Adapter<AnnouncementAdapte
             @Override
             public void onClick(final View view) {
                 OkHttpClient client = new OkHttpClient();
-                RequestBody requestBody = new FormBody.Builder().add("AID", String.valueOf(announcement.getID())).build();
+                RequestBody requestBody = new FormBody.Builder().add("AID", String.valueOf(announcement.getID())).add("govern", announcement.getGovern()).build();
                 //服务器地址，ip地址需要时常更换
                 String address = HttpUtil.address + "deleteAnnouncement";
                 Request request = new Request.Builder().url(address).post(requestBody).build();
